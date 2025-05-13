@@ -2,6 +2,7 @@
 using namespace  std;
 
 int main(){
+//here we are going to take the data we need 
 string c;
 int lenght;
 cout<<"************************hello**************************"<<endl;
@@ -9,10 +10,10 @@ cout<<"--in this code im going to help you number your words--"<<endl;
 cout<<"please tell me how much words you have: ";
 cin>>lenght;
 string array[lenght];
-
 int index;
 index = lenght-1;
 
+//this for let us import the words
 for (int j=0 ; j <= index; j++)
 {
 	int a;
@@ -22,9 +23,7 @@ for (int j=0 ; j <= index; j++)
 	array[j] = c;	
 }
 
-
-
-
+//this for let us output the words with their number at left
 for (int i =0; i<=index; i++ )
     {
     	int b;
